@@ -26,21 +26,35 @@ public class AdminSignUp extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jAdminFirstName = new javax.swing.JTextField();
+        jAdminLastName = new javax.swing.JTextField();
+        jAdminPassword = new javax.swing.JTextField();
+        jAdminConfirmPassword = new javax.swing.JTextField();
+        jAdminSignUp = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 750, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 442, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jAdminFirstName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jAdminFirstNameActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jAdminFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 140, 390, 40));
+        getContentPane().add(jAdminLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 200, 400, 40));
+        getContentPane().add(jAdminPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 260, 400, 40));
+        getContentPane().add(jAdminConfirmPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 320, 270, 40));
+
+        jAdminSignUp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Managers/AdminSignUpsized.png"))); // NOI18N
+        getContentPane().add(jAdminSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jAdminFirstNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jAdminFirstNameActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_jAdminFirstNameActionPerformed
 
     /**
      * @param args the command line arguments
@@ -78,5 +92,10 @@ public class AdminSignUp extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JTextField jAdminConfirmPassword;
+    private javax.swing.JTextField jAdminFirstName;
+    private javax.swing.JTextField jAdminLastName;
+    private javax.swing.JTextField jAdminPassword;
+    private javax.swing.JLabel jAdminSignUp;
     // End of variables declaration//GEN-END:variables
 }
