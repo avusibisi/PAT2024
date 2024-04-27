@@ -77,9 +77,7 @@ public class WelcomePage extends javax.swing.JFrame {
 
     private void jAdminSignUpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jAdminSignUpActionPerformed
         // TODO add your handling code here:
-        AdminSignUp choose = new AdminSignUp();
-        this.hide();
-        choose.show();
+       
     }//GEN-LAST:event_jAdminSignUpActionPerformed
 
     /**
