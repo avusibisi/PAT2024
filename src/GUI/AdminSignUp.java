@@ -31,6 +31,7 @@ public class AdminSignUp extends javax.swing.JFrame {
         jAdminPassword = new javax.swing.JTextField();
         jAdminConfirmPassword = new javax.swing.JTextField();
         jAdminSignUp = new javax.swing.JLabel();
+        jAdminSignUpBackground = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -47,6 +48,9 @@ public class AdminSignUp extends javax.swing.JFrame {
 
         jAdminSignUp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Managers/AdminSignUpsized.png"))); // NOI18N
         getContentPane().add(jAdminSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
+
+        jAdminSignUpBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/adminsignupsized.png"))); // NOI18N
+        getContentPane().add(jAdminSignUpBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 430));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -97,5 +101,6 @@ public class AdminSignUp extends javax.swing.JFrame {
     private javax.swing.JTextField jAdminLastName;
     private javax.swing.JTextField jAdminPassword;
     private javax.swing.JLabel jAdminSignUp;
+    private javax.swing.JLabel jAdminSignUpBackground;
     // End of variables declaration//GEN-END:variables
 }

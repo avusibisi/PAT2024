@@ -27,16 +27,55 @@ public class AdminLogin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        jFirstName = new javax.swing.JTextField();
+        jLastName = new javax.swing.JTextField();
+        jAccessCode = new javax.swing.JTextField();
+        jButtonNext = new javax.swing.JButton();
+        jButtonBack = new javax.swing.JButton();
+        jButtonHelp = new javax.swing.JButton();
+        jPasswordField1 = new javax.swing.JPasswordField();
+        jAdminLoginBackground = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().add(jFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 140, 410, 40));
 
-        jLabel1.setText("jLabel1");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(568, 130, 37, -1));
+        jLastName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jLastNameActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 190, 420, 40));
+        getContentPane().add(jAccessCode, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 310, 260, 40));
+
+        jButtonNext.setText("NEXT");
+        jButtonNext.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonNextActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonNext, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 370, 110, 40));
+
+        jButtonBack.setText("BACK");
+        getContentPane().add(jButtonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 110, 40));
+
+        jButtonHelp.setText("HELP");
+        getContentPane().add(jButtonHelp, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 20, 90, 30));
+        getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, 420, 40));
+
+        jAdminLoginBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/adminloginsized.png"))); // NOI18N
+        getContentPane().add(jAdminLoginBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(-5, 0, 740, 430));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jLastNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jLastNameActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLastNameActionPerformed
+
+    private void jButtonNextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNextActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonNextActionPerformed
 
     /**
      * @param args the command line arguments
@@ -74,6 +113,13 @@ public class AdminLogin extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JTextField jAccessCode;
+    private javax.swing.JLabel jAdminLoginBackground;
+    private javax.swing.JButton jButtonBack;
+    private javax.swing.JButton jButtonHelp;
+    private javax.swing.JButton jButtonNext;
+    private javax.swing.JTextField jFirstName;
+    private javax.swing.JTextField jLastName;
+    private javax.swing.JPasswordField jPasswordField1;
     // End of variables declaration//GEN-END:variables
 }

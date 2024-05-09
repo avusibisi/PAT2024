@@ -43,7 +43,7 @@ public class WelcomePage extends javax.swing.JFrame {
                 jAdminSignUpActionPerformed(evt);
             }
         });
-        getContentPane().add(jAdminSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 80, 200, 30));
+        getContentPane().add(jAdminSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 70, 200, 30));
 
         jAdminLogin.setText("LOGIN");
         jAdminLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -51,21 +51,21 @@ public class WelcomePage extends javax.swing.JFrame {
                 jAdminLoginActionPerformed(evt);
             }
         });
-        getContentPane().add(jAdminLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 120, 200, 30));
+        getContentPane().add(jAdminLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, 200, 30));
 
         jParentSignUp.setText("SIGN UP");
-        getContentPane().add(jParentSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 200, 200, 30));
+        getContentPane().add(jParentSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 200, 200, 30));
 
         jParentLogin.setText("LOGIN");
-        getContentPane().add(jParentLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 243, 200, 30));
+        getContentPane().add(jParentLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, 200, 30));
 
         jStudentSignUp.setText("SIGN UP");
-        getContentPane().add(jStudentSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 330, 190, 30));
+        getContentPane().add(jStudentSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 320, 170, 30));
 
         jStudentLogin.setText("LOGIN");
-        getContentPane().add(jStudentLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 370, 190, 30));
+        getContentPane().add(jStudentLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 360, 170, 30));
 
-        jWelcomePic.setIcon(new javax.swing.ImageIcon("C:\\Users\\avumi\\OneDrive\\Documents\\NetBeansProjects\\PATAvumileG12\\welcomepagesized.jpg")); // NOI18N
+        jWelcomePic.setIcon(new javax.swing.ImageIcon("C:\\Users\\avumi\\OneDrive\\Documents\\NetBeansProjects\\PATAvumileG12\\Welcomepage resized.png")); // NOI18N
         getContentPane().add(jWelcomePic, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, -1));
 
         pack();
