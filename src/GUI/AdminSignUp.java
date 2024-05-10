@@ -69,7 +69,7 @@ public class AdminSignUp extends javax.swing.JFrame {
         jButtonNext.setBorder(null);
         getContentPane().add(jButtonNext, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, 90, 50));
 
-        jAdminSignUpBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/adminsignupsized.png"))); // NOI18N
+        jAdminSignUpBackground.setIcon(new javax.swing.ImageIcon("C:\\Users\\avumi\\OneDrive\\Documents\\NetBeansProjects\\PATAvumileG12\\src\\BackgroundPics\\adminsignupsized.png")); // NOI18N
         getContentPane().add(jAdminSignUpBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 430));
 
         pack();

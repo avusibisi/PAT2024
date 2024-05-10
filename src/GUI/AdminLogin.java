@@ -73,7 +73,7 @@ public class AdminLogin extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 90, 40));
 
-        jButtonHelp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/Copy of COLLEGE CAFE (2).jpg"))); // NOI18N
+        jButtonHelp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/info button resized.jpg"))); // NOI18N
         jButtonHelp.setBorder(null);
         jButtonHelp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
