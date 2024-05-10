@@ -34,6 +34,7 @@ public class AdminLogin extends javax.swing.JFrame {
         jButtonBack = new javax.swing.JButton();
         jButtonHelp = new javax.swing.JButton();
         jPasswordField1 = new javax.swing.JPasswordField();
+        jButton1 = new javax.swing.JButton();
         jAdminLoginBackground = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -46,22 +47,56 @@ public class AdminLogin extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 190, 420, 40));
+
+        jAccessCode.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jAccessCodeActionPerformed(evt);
+            }
+        });
         getContentPane().add(jAccessCode, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 310, 260, 40));
 
-        jButtonNext.setText("NEXT");
+        jButtonNext.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/next button resized.jpg"))); // NOI18N
+        jButtonNext.setBorder(null);
         jButtonNext.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonNextActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonNext, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 370, 110, 40));
+        getContentPane().add(jButtonNext, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 370, 100, 40));
 
-        jButtonBack.setText("BACK");
-        getContentPane().add(jButtonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 110, 40));
+        jButtonBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/back button resized.jpg"))); // NOI18N
+        jButtonBack.setBorder(null);
+        jButtonBack.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonBackActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 370, 90, 40));
 
-        jButtonHelp.setText("HELP");
-        getContentPane().add(jButtonHelp, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 20, 90, 30));
+        jButtonHelp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/Copy of COLLEGE CAFE (2).jpg"))); // NOI18N
+        jButtonHelp.setBorder(null);
+        jButtonHelp.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonHelpActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonHelp, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, 90, 30));
+
+        jPasswordField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jPasswordField1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 250, 420, 40));
+
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/home icon resized.jpg"))); // NOI18N
+        jButton1.setBorder(null);
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 60, 90, -1));
 
         jAdminLoginBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/adminloginsized.png"))); // NOI18N
         getContentPane().add(jAdminLoginBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(-5, 0, 740, 430));
@@ -76,6 +111,26 @@ public class AdminLogin extends javax.swing.JFrame {
     private void jButtonNextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonNextActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButtonNextActionPerformed
+
+    private void jButtonHelpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonHelpActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonHelpActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jPasswordField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jPasswordField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jPasswordField1ActionPerformed
+
+    private void jAccessCodeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jAccessCodeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jAccessCodeActionPerformed
+
+    private void jButtonBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonBackActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonBackActionPerformed
 
     /**
      * @param args the command line arguments
@@ -115,6 +170,7 @@ public class AdminLogin extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField jAccessCode;
     private javax.swing.JLabel jAdminLoginBackground;
+    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButtonBack;
     private javax.swing.JButton jButtonHelp;
     private javax.swing.JButton jButtonNext;

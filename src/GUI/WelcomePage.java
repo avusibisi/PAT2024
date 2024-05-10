@@ -60,9 +60,19 @@ public class WelcomePage extends javax.swing.JFrame {
         getContentPane().add(jParentLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, 200, 30));
 
         jStudentSignUp.setText("SIGN UP");
+        jStudentSignUp.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jStudentSignUpActionPerformed(evt);
+            }
+        });
         getContentPane().add(jStudentSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 320, 170, 30));
 
         jStudentLogin.setText("LOGIN");
+        jStudentLogin.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jStudentLoginActionPerformed(evt);
+            }
+        });
         getContentPane().add(jStudentLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 360, 170, 30));
 
         jWelcomePic.setIcon(new javax.swing.ImageIcon("C:\\Users\\avumi\\OneDrive\\Documents\\NetBeansProjects\\PATAvumileG12\\Welcomepage resized.png")); // NOI18N
@@ -73,12 +83,32 @@ public class WelcomePage extends javax.swing.JFrame {
 
     private void jAdminLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jAdminLoginActionPerformed
         // TODO add your handling code here:
+         AdminLogin choose = new AdminLogin();
+        this.hide();
+        choose.show();
     }//GEN-LAST:event_jAdminLoginActionPerformed
 
     private void jAdminSignUpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jAdminSignUpActionPerformed
         // TODO add your handling code here:
+         AdminSignUp choose = new AdminSignUp();
+        this.hide();
+        choose.show();
        
     }//GEN-LAST:event_jAdminSignUpActionPerformed
+
+    private void jStudentSignUpActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jStudentSignUpActionPerformed
+        // TODO add your handling code here:
+         StudentSignUp choose = new StudentSignUp ();
+        this.hide();
+        choose.show();
+    }//GEN-LAST:event_jStudentSignUpActionPerformed
+
+    private void jStudentLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jStudentLoginActionPerformed
+        // TODO add your handling code here:
+         StudentLogin choose = new StudentLogin ();
+        this.hide();
+        choose.show();
+    }//GEN-LAST:event_jStudentLoginActionPerformed
 
     /**
      * @param args the command line arguments

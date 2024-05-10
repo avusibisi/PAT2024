@@ -31,6 +31,10 @@ public class AdminSignUp extends javax.swing.JFrame {
         jAdminPassword = new javax.swing.JTextField();
         jAdminConfirmPassword = new javax.swing.JTextField();
         jAdminSignUp = new javax.swing.JLabel();
+        jButtonHome = new javax.swing.JButton();
+        jButtonInfo = new javax.swing.JButton();
+        jButtonBack = new javax.swing.JButton();
+        jButtonNext = new javax.swing.JButton();
         jAdminSignUpBackground = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -48,6 +52,22 @@ public class AdminSignUp extends javax.swing.JFrame {
 
         jAdminSignUp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Managers/AdminSignUpsized.png"))); // NOI18N
         getContentPane().add(jAdminSignUp, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, -1, -1));
+
+        jButtonHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/home icon resized.jpg"))); // NOI18N
+        jButtonHome.setBorder(null);
+        getContentPane().add(jButtonHome, new org.netbeans.lib.awtextra.AbsoluteConstraints(626, 80, 100, 50));
+
+        jButtonInfo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/info button resized.jpg"))); // NOI18N
+        jButtonInfo.setBorder(null);
+        getContentPane().add(jButtonInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 20, 90, 50));
+
+        jButtonBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/back button resized.jpg"))); // NOI18N
+        jButtonBack.setBorder(null);
+        getContentPane().add(jButtonBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 370, 90, 50));
+
+        jButtonNext.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/next button resized.jpg"))); // NOI18N
+        jButtonNext.setBorder(null);
+        getContentPane().add(jButtonNext, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 370, 90, 50));
 
         jAdminSignUpBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/adminsignupsized.png"))); // NOI18N
         getContentPane().add(jAdminSignUpBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 730, 430));
@@ -102,5 +122,9 @@ public class AdminSignUp extends javax.swing.JFrame {
     private javax.swing.JTextField jAdminPassword;
     private javax.swing.JLabel jAdminSignUp;
     private javax.swing.JLabel jAdminSignUpBackground;
+    private javax.swing.JButton jButtonBack;
+    private javax.swing.JButton jButtonHome;
+    private javax.swing.JButton jButtonInfo;
+    private javax.swing.JButton jButtonNext;
     // End of variables declaration//GEN-END:variables
 }
