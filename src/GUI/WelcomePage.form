@@ -100,7 +100,7 @@
     <Component class="javax.swing.JLabel" name="jWelcomePic">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\avumi\OneDrive\Documents\NetBeansProjects\PATAvumileG12\Welcomepage resized.png"/>
+          <Image iconType="3" name="/BackgroundPics/welcomescreenresized.jpg"/>
         </Property>
       </Properties>
       <Constraints>

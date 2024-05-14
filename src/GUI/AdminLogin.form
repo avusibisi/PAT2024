@@ -137,7 +137,7 @@
     <Component class="javax.swing.JLabel" name="jAdminLoginBackground">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/BackgroundPics/adminloginsized.png"/>
+          <Image iconType="3" name="/BackgroundPics/adminloginsized.jpg"/>
         </Property>
       </Properties>
       <Constraints>

@@ -98,7 +98,7 @@ public class AdminLogin extends javax.swing.JFrame {
         });
         getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 60, 90, -1));
 
-        jAdminLoginBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/adminloginsized.png"))); // NOI18N
+        jAdminLoginBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/adminloginsized.jpg"))); // NOI18N
         getContentPane().add(jAdminLoginBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(-5, 0, 740, 430));
 
         pack();

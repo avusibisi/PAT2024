@@ -75,7 +75,7 @@ public class WelcomePage extends javax.swing.JFrame {
         });
         getContentPane().add(jStudentLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 360, 170, 30));
 
-        jWelcomePic.setIcon(new javax.swing.ImageIcon("C:\\Users\\avumi\\OneDrive\\Documents\\NetBeansProjects\\PATAvumileG12\\Welcomepage resized.png")); // NOI18N
+        jWelcomePic.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/welcomescreenresized.jpg"))); // NOI18N
         getContentPane().add(jWelcomePic, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 0, -1, -1));
 
         pack();
