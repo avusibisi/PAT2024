@@ -36,6 +36,7 @@ public class AdminLogin extends javax.swing.JFrame {
         jPasswordField1 = new javax.swing.JPasswordField();
         jButton1 = new javax.swing.JButton();
         jAdminLoginBackground = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -100,6 +101,9 @@ public class AdminLogin extends javax.swing.JFrame {
 
         jAdminLoginBackground.setIcon(new javax.swing.ImageIcon(getClass().getResource("/BackgroundPics/adminloginsized.jpg"))); // NOI18N
         getContentPane().add(jAdminLoginBackground, new org.netbeans.lib.awtextra.AbsoluteConstraints(-5, 0, 740, 430));
+
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 170, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -175,6 +179,7 @@ public class AdminLogin extends javax.swing.JFrame {
     private javax.swing.JButton jButtonHelp;
     private javax.swing.JButton jButtonNext;
     private javax.swing.JTextField jFirstName;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JTextField jLastName;
     private javax.swing.JPasswordField jPasswordField1;
     // End of variables declaration//GEN-END:variables
